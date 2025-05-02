@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
 
     document.getElementById('place-order').addEventListener('click', function() {
-        window.location.href = 'https://wa.me/yourphonenumber';
+        window.location.href = 'https://wa.me/9111555679';
     });
 
     // Initialize and add the map

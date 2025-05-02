@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Nex-Wash.iml" filepath="$PROJECT_DIR$/.idea/Nex-Wash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nexwash.iml" filepath="$PROJECT_DIR$/Nexwash.iml" />
     </modules>
   </component>
 </project>
