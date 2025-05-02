@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nex Laundry - Professional Laundry Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="taskbar">
+    <div class="title">NexLaundry</div>
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact" class="contact-menu">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<section id="home">
+    <div class="home-content">
+        <img src="logo.png" alt="Nex Laundry Logo" class="home-logo">
+        <h2 class="home-title">Nex Laundry</h2>
+        <p class="home-tagline">Premium Laundry & Dry Cleaning Services</p>
+        <a href="#contact" class="cta">Contact Us</a>
+    </div>
+</section>
+
+<section id="about" class="container">
+    <div class="about-image">
+        <img src="data:image/jpeg;base64,/zkdndXQ/jVcwozUOxY47ERLcC2bKM1uq++mMWGX6tu7SmTlT/WvggtRyBIEXDcQa+ERve3vorJXQKQATg9f58q+SMj+n5tRgjvvFS5qgQKrnvruccRarmi8fz61Wyfk0DskCD218Y7j4Gq8v5/PxqWv5/rSGf/Z" alt="Laundry Service">
+    </div>
+    <div class="about-content">
+        <h2>About Nexwash Laundry</h2>
+        <p>Nex Laundry provides premium laundry and dry-cleaning services with top-notch quality and express delivery.
+            Our professional cleaning ensures your clothes remain fresh, clean, and long-lasting.
+            Experience excellence with us.Nex Laundry provides premium laundry and dry-cleaning services with top-notch quality and express delivery.
+            Our professional cleaning ensures your clothes remain fresh, clean, and long-lasting.
+            Experience excellence with us.</p>
+    </div>
+</section>
+
+<section id="services" class="container">
+    <h1 class="button-style">Our Services</h1>
+    <h2>The Best Service Provided to our Customers</h2>
+    <div class="services-grid">
+        <div class="service-section">
+            <div class="service-icon">
+                <img src="images/img.png" alt="Washing & Drying">
+            </div>
+            <div class="service-content">
+                <h3>Washing & Drying</h3>
+                <a class="learn-more" onclick="openDialog('washing-drying')">
+                    Learn More<span class="arrow">></span>
+                </a>
+            </div>
+        </div>
+        <div class="service-section">
+            <div class="service-icon">
+                <img src="images/img_1.png" alt="Ironing & Folding">
+            </div>
+            <div class="service-content">
+                <h3>Ironing & Folding</h3>
+                <a class="learn-more" onclick="openDialog('ironing-folding')">
+                    Learn More<span class="arrow">></span>
+                </a>
+            </div>
+        </div>
+        <div class="service-section">
+            <div class="service-icon">
+                <img src="images/img_2.png" alt="Dry Cleaning">
+            </div>
+            <div class="service-content">
+                <h3>Dry Cleaning</h3>
+                <a class="learn-more" onclick="openDialog('dry-cleaning')">
+                    Learn More<span class="arrow">></span>
+                </a>
+            </div>
+        </div>
+        <div class="service-section">
+            <div class="service-icon">
+                <img src="images/img.png" alt="Stain Removal">
+            </div>
+            <div class="service-content">
+                <h3>Stain Removal</h3>
+                <a class="learn-more" onclick="openDialog('stain-removal')">
+                    Learn More<span class="arrow">></span>
+                </a>
+            </div>
+        </div>
+        <div class="service-section">
+            <div class="service-icon">
+                <img src="images/img_1.png" alt="Express Delivery">
+            </div>
+            <div class="service-content">
+                <h3>Express Delivery</h3>
+                <a class="learn-more" onclick="openDialog('express-delivery')">
+                    Learn More<span class="arrow">></span>
+                </a>
+            </div>
+        </div>
+        <div class="service-section">
+            <div class="service-icon">
+                <img src="images/img_2.png" alt="Alteration Services">
+            </div>
+            <div class="service-content">
+                <h3>Alteration Services</h3>
+                <a class="learn-more" onclick="openDialog('alteration-services')">
+                    Learn More<span class="arrow">></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Dialog Boxes -->
+<div id="washing-drying" class="dialog-overlay">
+    <div class="dialog-box">
+        <h3>Washing & Drying</h3>
+        <p>We provide deep cleaning and gentle washing for all fabrics.</p>
+        <a href="https://wa.me/919340366253?text=I%20would%20like%20to%20place%20an%20order" class="cta">Order Now</a>
+        <button class="close-dialog" onclick="closeDialog('washing-drying')">Close</button>
+    </div>
+</div>
+
+<div id="ironing-folding" class="dialog-overlay">
+    <div class="dialog-box">
+        <h3>Ironing & Folding</h3>
+        <p>Perfectly pressed clothes with professional ironing service.</p>
+        <a href="https://wa.me/919340366253?text=I%20would%20like%20to%20place%20an%20order" class="cta">Order Now</a>
+        <button class="close-dialog" onclick="closeDialog('ironing-folding')">Close</button>
+    </div>
+</div>
+
+<div id="dry-cleaning" class="dialog-overlay">
+    <div class="dialog-box">
+        <h3>Dry Cleaning</h3>
+        <p>High-quality dry cleaning for delicate and premium fabrics.</p>
+        <a href="https://wa.me/919340366253?text=I%20would%20like%20to%20place%20an%20order" class="cta">Order Now</a>
+        <button class="close-dialog" onclick="closeDialog('dry-cleaning')">Close</button>
+    </div>
+</div>
+
+<div id="stain-removal" class="dialog-overlay">
+    <div class="dialog-box">
+        <h3>Stain Removal</h3>
+        <p>Specialized stain removal treatment for tough stains.</p>
+        <a href="https://wa.me/919340366253?text=I%20would%20like%20to%20place%20an%20order" class="cta">Order Now</a>
+        <button class="close-dialog" onclick="closeDialog('stain-removal')">Close</button>
+    </div>
+</div>
+
+<div id="express-delivery" class="dialog-overlay">
+    <div class="dialog-box">
+        <h3>Express Delivery</h3>
+        <p>Get your clothes back fresh within 24 hours.</p>
+        <a href="https://wa.me/919340366253?text=I%20would%20like%20to%20place%20an%20order" class="cta">Order Now</a>
+        <button class="close-dialog" onclick="closeDialog('express-delivery')">Close</button>
+    </div>
+</div>
+
+<div id="alteration-services" class="dialog-overlay">
+    <div class="dialog-box">
+        <h3>Alteration Services</h3>
+        <p>Professional alteration services to ensure your clothes fit perfectly.</p>
+        <a href="https://wa.me/919340366253?text=I%20would%20like%20to%20place%20an%20order" class="cta">Order Now</a>
+        <button class="close-dialog" onclick="closeDialog('alteration-services')">Close</button>
+    </div>
+</div>
+
+<script>
+    function openDialog(dialogId) {
+        document.getElementById(dialogId).style.display = 'flex';
+    }
+
+    function closeDialog(dialogId) {
+        document.getElementById(dialogId).style.display = 'none';
+    }
+</script>
+
+<section id="pricing" class="container">
+    <h2>Pricing</h2>
+    <div class="pricing-table">
+        <div class="pricing-item">
+            <h3>Shirts & Tops</h3>
+            <p class="price">₹30/item</p>
+            <p>Professional washing and ironing for shirts and tops.</p>
+        </div>
+        <div class="pricing-item">
+            <h3>Trousers & Pants</h3>
+            <p class="price">₹40/item</p>
+            <p>High-quality cleaning and pressing for trousers and pants.</p>
+        </div>
+        <div class="pricing-item">
+            <h3>Dresses</h3>
+            <p class="price">₹60/item</p>
+            <p>Delicate cleaning and ironing for all types of dresses.</p>
+        </div>
+        <div class="pricing-item">
+            <h3>Suits</h3>
+            <p class="price">₹150/item</p>
+            <p>Expert dry cleaning and pressing for suits.</p>
+        </div>
+        <div class="pricing-item">
+            <h3>Jackets & Coats</h3>
+            <p class="price">₹100/item</p>
+            <p>Specialized cleaning for jackets and coats.</p>
+        </div>
+        <div class="pricing-item">
+            <h3>Express Delivery</h3>
+            <p class="price">₹30 extra</p>
+            <p>Get your clothes back fresh within 24 hours.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Email:</strong> contact@nexlaundry.com</p>
+            <p><strong>Address:</strong> 123, Blue Street, Mumbai, India</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.9537353153168!3d-37.8162793797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d8b2e4b0b1b1!2s123%20Blue%20Street%2C%20Mumbai%2C%20India!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Nex Laundry. All Rights Reserved.</p>
+</footer>
+
+<button id="back-to-top" class="cta">Back to Top</button>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".taskbar nav ul li a");
+
+        function changeActiveSection() {
+            let currentSection = "";
+
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop - 100; // Adjusted for navbar height
+                if (window.scrollY >= sectionTop) {
+                    currentSection = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href").substring(1) === currentSection) {
+                    link.classList.add("active");
+                }
+            });
+        }
+
+        window.addEventListener("scroll", changeActiveSection);
+
+        const backToTopButton = document.getElementById('back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+</body>
+</html>
